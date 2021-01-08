@@ -1,0 +1,417 @@
+body{ background: #fff; font-size: 14px; color: #464a5a; font-family: 'Open Sans', sans-serif;}
+
+div{ outline: none;}
+
+
+ul{ margin: 0; padding: 0; list-style: none;}
+
+
+/*-----------------------------------------------------------------------------------*/
+/*	03.	Home Page
+/*-----------------------------------------------------------------------------------*/
+
+
+/****** Header ******/ 
+/* Nav */
+
+/****** Footer ******/
+.footer .seprater-line{ margin: 30px auto 0;}
+
+
+
+/* Footer Logo */
+.footer-logo{ text-align: center;}
+.footer-logo a{ margin: 0 0 30px; display: inline-block;}
+.footer-logo p{ font-size: 16px; margin: 0;}
+
+/* Footer Link */
+.footer-link{ text-align: center; padding: 40px 0; border-bottom: 1px dashed #ccc;}
+.footer-link ul{ display: inline-block;}
+.footer-link ul li{ float: left; margin: 0 0 0 40px;}
+.footer-link ul li:first-child{ margin: 0;}
+.footer-link ul li a{ font-size: 18px; font-weight: 300; font-family: 'Aileron'; color: #222;}
+
+/* Sub Footer */
+.sub-footer{ padding: 25px 0; overflow: hidden;}
+.sub-footer .tc-social-icons{ float: left;}
+.sub-footer p{ float: right; font-family: 'Aileron'; font-weight: 300; margin: 5px 0 0;}
+.sub-footer p a{ display: inline-block; font-weight: 700;}
+.sub-footer p span{ font-weight: 700;}
+
+/*-----------------------------------------------------------------------------------*/
+/*	04.	Blog Pages
+/*-----------------------------------------------------------------------------------*/
+
+
+
+/****** Header 2 ******/
+
+.nav-holder.style-2{ padding: 0;}
+.sticky1{
+	position: fixed;
+	top: 0;
+	width: 100%;
+}
+
+
+/* Top bar */
+.top-bar{ padding: 7px 0;}
+
+.login-options{ float: right; }
+.login-options li{ float: left;}
+.login-options li span{ float: left; font-size: 12px; line-height: 30px; cursor: pointer; color: #777;}
+.login-options li span i{ margin: 0 5px 0 0;}
+.login-options li a{ float: left; font-size: 12px; line-height: 30px; cursor: pointer; color: #777;}
+.login-options li a i{ margin: 0 5px 0 0;}
+.login-options li::before{ content: "|"; float: left; color: #ccc; margin: 0 10px; line-height: 30px;}
+.login-options li:first-child::before{ display: none;}
+
+
+/*-----------------------------------------------------------------------------------*/
+/*	13.	404 Page
+/*-----------------------------------------------------------------------------------*/
+.error-content-holder{ padding: 150px 0;}
+.error-content{ text-align: center; position: relative; overflow: hidden;}
+.error-content h1{ font-size: 200px; font-family: 'Aileron Black'; line-height: 148px; margin: 0 0 50px;}
+.error-content h2{ font-size: 36px; font-weight: 300; margin: 0 0 50px;}
+.error-content .search-bar{ margin: 0 0 50px; width: 100%; left: 0;}
+.error-content .search-bar .form-control{ width: 100%;}
+.error-content .search-bar button{ border-right: 1px solid #ccc; color: #fff; line-height: 39px; padding: 0 30px;}
+
+
+/*-----------------------------------------------------------------------------------*/
+/*	15.	Login & And signup Form
+/*-----------------------------------------------------------------------------------*/
+.modal-dialog{ 
+	height: 100%; 
+	z-index: -1; 
+	width: 100%; 
+	margin: 0;
+}
+
+/* Login Form */
+
+.login{
+    width: 600px;
+    margin: 0 auto;
+}
+
+.login label{
+	color: #fff;
+}
+
+.login h3{
+	font-size: 32px;
+	font-weight: 700;
+	color: #333;
+	text-align: center;
+	margin-bottom: 30px;
+}
+
+.login-form{ 
+	width: 100%; 
+	padding: 30px;
+	margin: 0 auto;
+	background: #333;
+	border-radius: 5px;
+}
+
+.login .btn{
+	background: #49a09d;
+	margin: 10px 0;
+	border: 1px solid #49a09d;
+	color: #333;
+	font-weight: 700;
+}
+
+.login .btn:hover{
+	background: #93EDC7;
+	border: 1px solid #93EDC7;
+}
+
+.login p{
+	color: #fff;
+}
+
+.login p a{
+	color: #49a09d;
+}
+
+.login-form::before{ 
+	z-index: -1;
+}
+.login-form > a{ 
+	margin: 0 0 30px; 
+	color: #fff;
+}
+.login-form .form-control{ 
+	background: #fff;
+}
+.login-form .form-group{ 
+	margin: 0 0 10px;
+}
+.login-form .tc-social-icons{ 
+	text-align: center; 
+}
+.login-form .tc-social-icons ul{ 
+	display: inline-block;
+}
+.login-form .tc-social-icons ul li a{ 
+	background: #fff;
+}
+.login-form .border-bottom{ 
+	border-bottom: 1px solid rgba(255,255,255,0.2); 
+	padding: 0 0 30px;
+}
+.login-form .err p{ 
+	color: red;
+	text-align: center;
+}
+
+#infoMessage p{
+	color: red;
+}
+
+/*Product Owner Page*/
+
+.product-list .btn{
+	background: #49a09d;
+	margin: 10px 0;
+	border: 1px solid #49a09d;
+	color: #333;
+	font-weight: 700;
+	padding: 10px 15px;
+}
+
+.product-list .btn:hover{
+	background: #93EDC7;
+	border: 1px solid #93EDC7;
+}
+
+
+.product-list p{
+	text-align:right;
+	color: #333; 
+	margin-bottom: 20px; 
+	font-size: 18px; 
+	font-weight: bold;
+	margin-top: 20px;
+}
+
+.product-list h3{
+	color: #333;
+	text-align: center;
+	font-weight: 700;
+}
+
+/*Product Ownner Page Table*/
+
+.tg  {
+	border-collapse: collapse;
+	border-spacing:0; 
+	width: 100%;
+}
+
+.caption p{
+	text-align: left; 
+	font-size: 18px; font-weight: bold; 
+	color: black;
+}
+
+.tg td{
+	font-family:Arial, sans-serif;
+	font-size:14px;
+	padding:10px 8px;
+	border-style:solid;
+	border-width:1px;
+	overflow:hidden;
+	word-break:normal;
+	border-color:black;
+}
+
+.tg th{
+	font-family:Arial, sans-serif;
+	font-size:14px;
+	font-weight:normal;
+	padding:10px 8px;
+	border-style:solid;
+	border-width:1px;
+	overflow:hidden;
+	word-break:normal;
+	border-color:black;
+}
+
+.tg .tg-01q5{
+	background-color:#32cb00;
+	color:#000000;
+	border-color:#c0c0c0; 
+	text-align: center; 
+	font-weight: bold;
+}
+
+.tg .tg-gweg{
+	border-color:#c0c0c0;
+	text-align:center
+}
+
+.tg a{
+	display: block;
+}
+
+#myInput{
+	display: block;
+	margin-top: 20px;
+	float: right;
+	padding: 5px;
+}
+
+/*Landing Page*/
+
+.image-holder{
+	cursor: pointer !important;
+}
+
+.image-holder img{
+	border: 1px solid #333;
+}
+.price{
+	padding-top: 10px;
+	font-size: 14px;
+	color: #333;
+	font-weight: 700;
+}
+
+.name{
+	font-size: 20px;
+	color: #333;
+	padding-bottom: 20px;
+	font-weight: 700;
+}
+
+/*Load More Button And Bottom to Top Button*/
+
+.loading{
+	display: none;
+}
+
+#loadMore {
+    color: #33739E;
+    text-decoration: none;
+    display: block;
+    margin: 10px 0;
+}
+#loadMorea:hover, .top a:hover {
+    text-decoration: none;
+}
+#loadMore {
+	width: 300px;
+	margin: 0 auto;
+	border-radius: 5px;
+    padding: 10px;
+    text-align: center;
+    background-color: #33739E;
+    color: #fff;
+    border: 1px solid #33739E;
+    box-shadow: 0 1px 1px #ccc;
+    transition: all 600ms ease-in-out;
+    -webkit-transition: all 600ms ease-in-out;
+    -moz-transition: all 600ms ease-in-out;
+    -o-transition: all 600ms ease-in-out;
+}
+#loadMore:hover {
+    background-color: #fff;
+    color: #33739E;
+}
+
+
+/* Modal */
+
+
+/* Extra styles for the cancel button */
+.cancelbtn {
+  width: auto;
+  padding: 10px 18px;
+  background-color: #f44336;
+}
+
+/* Center the image and position the close button */
+.imgcontainer {
+  text-align: center;
+  margin: 24px 0 12px 0;
+  position: relative;
+}
+
+.container {
+  padding: 16px;
+}
+
+span.psw {
+  float: right;
+  padding-top: 16px;
+}
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  padding-top: 60px;
+}
+
+/* Modal Content/Box */
+.modal-content {
+  background-color: #fefefe;
+  margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+  border: 1px solid #888;
+  width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button (x) */
+.close {
+  position: relative;
+  right: 25px;
+  top: -10px !important;
+  color: #000;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: red;
+  cursor: pointer;
+}
+
+/* Add Zoom Animation */
+.animate {
+  -webkit-animation: animatezoom 0.6s;
+  animation: animatezoom 0.6s
+}
+
+@-webkit-keyframes animatezoom {
+  from {-webkit-transform: scale(0)} 
+  to {-webkit-transform: scale(1)}
+}
+  
+@keyframes animatezoom {
+  from {transform: scale(0)} 
+  to {transform: scale(1)}
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+  span.psw {
+     display: block;
+     float: none;
+  }
+  .cancelbtn {
+     width: 100%;
+  }
+}
